@@ -6,7 +6,7 @@ Replace the contents of this file with a report, as described in the [instructio
 
 ## 1. Dataset Details
 This analysis used [data](https://www.nasdaq.com/market-activity/stocks/screener) of "Global Select" section from Nasdaq screener, *a dataset that contains the stock price, [market cap](https://www.fidelity.com/learning-center/trading-investing/fundamental-analysis/understanding-market-capitalization) (i.e., market value), as well as other basic information about selected stocks all over the world*. The original data was downloaded in **CSV** at Feb 13, 2024. Here is a preview (records 101-120, as it best captures the problem in the dataset)of the downloaded [dataset](./data/nasdaq_screener_20240213.csv):
-<!-- insert data here. add -->
+
 | **Symbol** | **Name** | **Last Sale** | **Net Change** | **% Change** | **Market Cap**  | **Country** | **IPO Year** | **Volume** |**Sector** | **Industry** |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |AERTW|Aeries Technology Inc. Warrant|$0.0893|0.0131|17.192%|1394777.00|United States|2021|432|Consumer Discretionary|Professional Services|
@@ -91,4 +91,4 @@ This pie chart shows the percentage of number of stocks from each sector (frenqu
 ## 3. Extra-credit
 
 This assignment deserves extra credit for **Big or Complex Data** because 
-it munged a [dataset](./data/nasdaq_screener_20240206.csv) of **4083** records and analyzed a [dataset](./data/clean_data.csv) of **3676** records.
+it munged a [dataset](./data/nasdaq_screener_20240213.csv) of **4083** records and analyzed a [dataset](./data/clean_data.csv) of **3676** records.
