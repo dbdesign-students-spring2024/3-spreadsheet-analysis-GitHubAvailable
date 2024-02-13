@@ -284,7 +284,7 @@ def main():
 
     # Set file directory.
     root = os.path.dirname(__file__)
-    data_path = os.path.join(root, "data/nasdaq_screener_20240206.csv")
+    data_path = os.path.join(root, "data/nasdaq_screener_20240213.csv")
     target_path = os.path.join(root, "data/clean_data.csv")
 
     cleaned_data = munge_csv(data_path, encoding=encoding, 
